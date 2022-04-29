@@ -10,8 +10,16 @@
 ## Process
    
    ### HTML Code
-      HTML code required for select element using javascript.
-        We need 1 h1 tag for heading, 1 span tag to show percentage and three buttons for decrease, increase and reset.
+        <section class="counter">
+        <h3>Count Number App</h3>
+        <span class="result">0</span>
+
+        <div class="buttons">
+            <button class="btn decrease">Decreament</button>
+            <button class="btn reset">Reset</button>
+            <button class="btn increase">increament</button>
+        </div>
+    </section>
         
    ### CSS code
         we will need css code to style webapp. used flexbox, and some basic properties.
